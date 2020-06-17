@@ -172,7 +172,7 @@ public:
   std::string name;
   enum
   {
-    UNKNOWN, REVOLUTE, CONTINUOUS, PRISMATIC, FLOATING, PLANAR, FIXED
+    UNKNOWN, REVOLUTE, CONTINUOUS, PRISMATIC, FLOATING, PLANAR, FIXED, CONTINUUM
   } type;
 
   /// \brief     type_       meaning of axis_
@@ -183,6 +183,7 @@ public:
   ///            FLOATING    N/A
   ///            PLANAR      plane normal axis
   ///            FIXED       N/A
+  ///            CONTINUUM   N/A, defined in arma_urdf
   Vector3 axis;
 
   /// child Link element
