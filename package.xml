@@ -17,12 +17,12 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>boost</build_depend>
-  <build_depend>console_bridge</build_depend>
+  <build_depend>libconsole-bridge-dev</build_depend>
   <build_depend>tinyxml</build_depend>
 
   <run_depend>boost</run_depend>
   <run_depend>catkin</run_depend>
-  <run_depend>console_bridge</run_depend>
+  <run_depend>libconsole-bridge-dev</run_depend>
   <run_depend>tinyxml</run_depend>
   
   <export>
