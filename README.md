@@ -1,3 +1,5 @@
+Forked to allow use of constant-curvature continuum segments with MoveIt.
+
 urdfdom_headers
 ===========
 
